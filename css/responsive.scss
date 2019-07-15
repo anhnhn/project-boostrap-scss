@@ -1,0 +1,448 @@
+@import "variables";
+
+
+@media screen and (max-width: 576px) {
+    @font-face {
+        font-family: Enso;
+        src: url("../fonts/enso.ttf");
+    }
+
+    @font-face {
+        font-family: themify;
+        src: url("../fonts/themify.ttf");
+    }
+
+    body {
+        max-width: 576px;
+        margin: 0 auto;
+        font-family: $font-roboto;
+        font-size: 12px;
+    }
+
+    .container-fluid-header {
+        background-image: url("../image/banner.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .container-fluid-header {
+        .container-header {
+            padding: 15px 0 26.75px;
+
+            .menu {
+                height: 38px;
+                margin-bottom: 8px; 
+
+                .about-us {
+                    width: 66px;
+                    height: 16px;
+                    color: $light-black;
+                    letter-spacing: 1px;
+                    line-height: 36px;    
+                }  
+
+                .sign-in-wrap {
+                    width: 82px;
+                    border: 2px solid $light-blue;
+                    border-radius: 100px; 
+                    margin-left: 23px;
+                    margin-right: 13px;
+                }
+            }    
+
+            .hapo-erp-title {
+                padding-bottom: 20px;
+
+                p {
+                    color: $light-light-blue;
+                    font-family: $font-enso;
+                    font-size: 24px;
+                    line-height: 29px;    
+                }
+            }
+            
+            .icon-header {
+                padding-bottom: 15px;
+
+                .header-text {
+                    height: 48px;
+                    color: $light-black;
+                    font-size: 18px;
+                    font-weight: 300;
+                    letter-spacing: -0.03px;
+                    line-height: 24px;
+                }
+            } 
+            
+            .icon-wrap-header {
+                padding-bottom: 8px;
+
+                .set-icon-header {
+                    color: $light-black;
+                    font-size: 18px;
+                    letter-spacing: 1.5px;
+                    line-height: 18px !important;
+                }
+            }
+            
+            .header-text-long {
+                padding-bottom: 15px;   
+                color: $light-black;
+                font-size: 9px;
+                font-style: italic;
+                letter-spacing: -0.02px;
+                line-height: 11px;
+            }
+        }   
+    }
+
+    .fix-padding {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .fix-margin {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    
+    .sign-in-wrap {
+        .sign-in {
+            height: 16px;
+            width: 50px;
+            color: $light-blue;
+            letter-spacing: 1px;
+            line-height: 36px;
+            padding-left: 17px;
+        }    
+    }
+
+    
+    .button-customs {
+        height: 40px;
+        width: 144px;
+        border-radius: 100px;
+        background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    }
+
+    #startNow {
+        color: $white;
+        font-size: 14px;
+        letter-spacing: 1.17px;
+        line-height: 19px;
+    }
+
+    .container-object {
+        padding: 30px 0;
+
+        .object-photo {
+            width: 100%;
+            height: 307px;  
+            border-radius: 0 0 3px 3px;
+            margin-bottom: 21px;
+        }
+
+        .title-object {
+           padding-bottom: 5px; 
+
+           .icon-object {
+                width: 20px;
+                color: $pale-black;
+                font-size: 20px;
+                letter-spacing: -0.04px;
+                line-height: 20px;
+                margin-top: 7px;
+                margin-right: 14px; 
+            }
+        }
+    }
+
+    
+    .title-of-object {
+        color: $pale-black;
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: -0.05px;
+        line-height: 32px;
+    }
+
+    .short-text-object {
+        color: $light-black;
+        font-size: 13px;
+        font-style: italic;
+        letter-spacing: -0.03px;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+
+    .long-text-object {
+        color: $light-black;
+        font-size: 13px;
+        line-height: 21px;
+        width: 100%;
+    }
+
+    .set-padding-long-text {
+        padding-bottom: 20px;
+    }
+
+    .blu-space {
+        background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+
+        .content-blu-space {
+            padding: 38.75px 0 75px;
+
+            .item-blu-space {
+                width: 109.5px;
+
+                .oval-big {
+                    box-sizing: border-box;
+                    height: 109.5px;
+                    width: 109.5px;
+                    border: 2.5px solid $white;
+                    border-radius: 50%;
+                }
+
+                .text-blu-space {
+                    color: $white;
+                    font-size: 16px;
+                    letter-spacing: 1.33px;
+                    line-height: 21px;
+                    font-weight: 500;
+                    margin-top: 31.75px;
+                }
+            }
+
+            .icon-blu-space-wrap {
+                width: 100%;
+                height: 85px;
+
+                .icon-blu-space {
+                    width: 36px;
+                    color: $white;
+                    font-size: 36px;
+                    letter-spacing: -0.07px;
+                    line-height: 95px;
+                }
+            }
+
+            .oval-small-wrap {
+                width: 100%;
+            }
+
+            .oval-small {
+                box-sizing: border-box;
+                height: 45.5px;
+                width: 45.5px;
+                border: 2.5px solid $white;
+                background-color: $dark-blue;
+                border-radius: 50%;
+            }
+
+            .number {
+                width: 14px;
+                color: $white;
+                font-size: 24px;
+                letter-spacing: -0.05px;
+                line-height: 39.25px;
+            }
+        }
+    }
+
+    .set-width-text-bluspace {
+        width: 57px;
+    }
+    
+    .set-short-text-member {
+        padding-bottom: 20px !important;
+    }
+
+    .text-members {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .text-customers {
+        width: 100%;
+        margin-bottom: 16px;    
+    }
+
+    .icon-customer-members {
+        height: 24px;
+        width: 18px;
+        color: $light-blue;
+        font-size: 18px;
+        line-height: 24px;
+        margin-right: 13px;
+    }
+    
+    .long-text-members {
+        color: $light-black;
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .set-height-photo {
+        height: 386px;
+    }
+
+    .set-margin-button {
+        margin-top: 15px;
+    }
+
+    .our-customers {
+        background-color: rgba(40,50,56,0.9);
+        background-image: url("../image/Rectangle 3-1.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .our-customers {
+        .content-our-customers {
+            padding: 25px 0;
+
+            .title-our-customer {
+                color: $white;
+                margin-bottom: 38px;
+            }
+
+            .object-our-customers {
+                margin-bottom: 58px;
+            }
+
+            .face-our-customers {
+                width: 80px;
+            }
+
+            .face {
+                height: 80px;
+                margin-bottom: 16px;
+            }
+
+            .customers-designer {
+                color: $white;
+                font-size: 10px;
+                letter-spacing: -0.03px;
+                line-height: 16px;
+            }
+
+            .designer {
+                color: $white;
+                font-size: 8px;
+                letter-spacing: -0.03px;
+                line-height: 13px;
+            }
+
+            .icon-our-customer {
+                height: 48px;
+                width: 48px;
+                opacity: 0.4;
+                color: $white;
+                font-size: 48px;
+                letter-spacing: -0.14px;
+                line-height: 48px;
+            }
+
+            .text-customer {
+                width: 100%;
+                color: $white;
+                font-size: 14px;
+                font-weight: 300;
+                letter-spacing: -0.03px;
+                line-height: 25px;
+                margin-top: 5px 0 0;
+            }
+        }   
+    }
+
+    .fix-margin-left {
+        margin-left: 0;
+    }
+
+    .fix-margin-right {
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .set-photo-project {
+        height: 276.75px !important;
+    }
+                
+    .footer-web {
+        border: 1px solid $dark-white;
+        background-color: $dark-gray;
+        box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
+
+        .content-footer {
+            padding: 24px 0 28px;
+
+            .item-footer {
+                width: 100%;
+            }
+
+            .set-margin-footer {
+                margin-right: 64px;
+            }
+
+            .size-text-footer {
+                width: 76px !important;
+                margin-top: 15px;
+            }
+
+            .hapo-erp-footer {
+                color: $light-light-blue;
+                font-family: $font-enso;
+                font-size: 20px;
+                line-height: 24px;
+                margin-bottom: 25px;
+            }
+
+            .big-text-footer {
+                color: $light-blue;
+                font-size: 12px;
+                font-weight: 500;
+                letter-spacing: -0.02px;
+                line-height: 16px;
+            }
+
+            .small-text-footer {
+                color: $dark-dark-white;
+                font-size: 10px;
+                font-weight: 500;
+                letter-spacing: -0.02px;
+                line-height: 20px;
+            }
+
+            .icon-footer {
+                height: 13px;
+                width: 13px;
+                color: $light-blue;
+                font-size: 13px;
+                letter-spacing: -0.03px;
+                line-height: 13px;
+                margin-top: 24px;
+                margin-right: 21px;
+            }
+
+            .copyright {
+                color: $dark-dark-white;
+                font-size: 10px;
+                font-weight: 500;
+                letter-spacing: -0.02px;
+                line-height: 13px;
+                padding-bottom: 2px; 
+                margin-top: 24px;
+            }
+
+            .li-big {
+                padding-bottom: 15px;
+            }
+        }
+    }
+           
+    .set-margin-icon-footer {
+        margin-top: 24px; 
+    }
+}
