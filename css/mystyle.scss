@@ -41,7 +41,7 @@
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: blue;
+    background-color: gray;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -130,7 +130,7 @@ body {
 }
 
 .hapo-erp-title {
-    p {
+    span {
         color: $light-light-blue;
         font-family: $font-enso;
         font-size: 64px;
@@ -204,8 +204,7 @@ body {
     background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
     
     .content-blu-space {
-       padding-top: 68.75px;
-       padding-bottom: 70px;
+        padding: 68.75px 0 70px;
 
         .item-blu-space {
             width: 109.5px;
@@ -272,7 +271,6 @@ body {
 }
 
 .text-customers {
-    width: 95%;
     margin-bottom: 16px;    
 }
 
@@ -309,8 +307,7 @@ body {
     }
 
     .content-our-customers {
-        padding-top: 50px;
-        padding-bottom: 29px;
+        padding: 50px 0 29px;
 
         .title-our-customer {
             color: $white;
@@ -393,7 +390,7 @@ body {
             margin-bottom: 36px;
         }
 
-        .copyright-2017 {
+        .copyright {
             color: $dark-dark-white;
             font-size: 10px;
             font-weight: 500;
@@ -425,7 +422,6 @@ body {
             letter-spacing: -0.03px;
             line-height: 13px;
             margin-top: 63px;
-            margin-right: 38px;
         }
 
         .li-big {

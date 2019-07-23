@@ -17,7 +17,7 @@
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: blue;
+  background-color: gray;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -97,7 +97,7 @@ body {
   line-height: 36px;
 }
 
-.hapo-erp-title p {
+.hapo-erp-title span {
   color: #AED581;
   font-family: "Enso", sans-serif;
   font-size: 64px;
@@ -169,8 +169,7 @@ body {
   background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
 }
 .blu-space .content-blu-space {
-  padding-top: 68.75px;
-  padding-bottom: 70px;
+  padding: 68.75px 0 70px;
 }
 .blu-space .content-blu-space .item-blu-space {
   width: 109.5px;
@@ -229,7 +228,6 @@ body {
 }
 
 .text-customers {
-  width: 95%;
   margin-bottom: 16px;
 }
 
@@ -263,8 +261,7 @@ body {
   background-repeat: no-repeat;
 }
 .our-customers .content-our-customers {
-  padding-top: 50px;
-  padding-bottom: 29px;
+  padding: 50px 0 29px;
 }
 .our-customers .content-our-customers .title-our-customer {
   color: #FFFFFF;
@@ -340,7 +337,7 @@ body {
   line-height: 29px;
   margin-bottom: 36px;
 }
-.footer-web .content-footer .copyright-2017 {
+.footer-web .content-footer .copyright {
   color: #D0D8DC;
   font-size: 10px;
   font-weight: 500;
@@ -369,7 +366,6 @@ body {
   letter-spacing: -0.03px;
   line-height: 13px;
   margin-top: 63px;
-  margin-right: 38px;
 }
 .footer-web .content-footer .li-big {
   padding-bottom: 14px;
@@ -423,7 +419,7 @@ body {
   .container-fluid-header .container-header .hapo-erp-title {
     padding-bottom: 20px;
   }
-  .container-fluid-header .container-header .hapo-erp-title p {
+  .container-fluid-header .container-header .hapo-erp-title span {
     color: #AED581;
     font-family: "Enso", sans-serif;
     font-size: 24px;
@@ -689,7 +685,7 @@ body {
     font-weight: 300;
     letter-spacing: -0.03px;
     line-height: 25px;
-    margin-top: 5px 0 0;
+    margin: 5px 0 0;
   }
 
   .fix-margin-left {
